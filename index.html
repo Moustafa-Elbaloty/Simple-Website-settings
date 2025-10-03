@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewporف" content="width=device-width, initial-scale=1.0" />
+    <!-- normailze -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>simple website</title>
+  </head>
+
+  <body>
+    <!-- start aside setting -->
+    <aside id="settings">
+      <div class="icon-settings">
+        <i class="fa-solid fa-gear fa-spin"></i>
+      </div>
+      <div class="settings-head">
+        <h5>Colors</h5>
+        <!-- we can use order list instat of span-->
+        <div class="colors">
+          <span class="active" data-color="#FF9800"></span>
+          <span data-color="#E91E63"></span>
+          <span data-color="#009688"></span>
+          <span data-color="#03A9F4"></span>
+          <span data-color="#4CAF50"></span>
+        </div>
+      </div>
+      <div class="random-background">
+        <h5>Random Backgrounds</h5>
+        <div class="answer">
+          <span class="yes" data-back="ok">Yes</span>
+          <span class="no" data-back="no">No</span>
+        </div>
+      </div>
+      <div class="show-bullet">
+        <h5>show bullet</h5>
+        <div class="answer">
+          <span class="yes" data-bullet="ok">Yes</span>
+          <span class="no" data-bullet="no">No</span>
+        </div>
+      </div>
+      <button class="reset">reset all settings</button>
+    </aside>
+    <!-- end aside setting -->
+    <!-- start header -->
+    <header>
+      <div class="container">
+        <a href="#">Special Design</a>
+        <nav>
+          <i class="fa-solid fa-bars"></i>
+          <ul>
+            <li><a href="#about">about</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#gallery">gallery</a></li>
+            <li><a href="#timeline">Timeline</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- End header -->
+    <!-- start landing -->
+    <section class="landing">
+      <div class="overlay"></div>
+      <div class="intro-text">
+        <h2>We Are <span>Creative</span> Agency</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+          odit nihil ullam nesciunt quidem iste
+        </p>
+      </div>
+      <ul class="bullet">
+        <li data-about="about"><a href="#about"></a></li>
+        <li data-about="skills"><a href="#skills"></a></li>
+        <li data-about="gallery"><a href="#gallery"></a></li>
+        <li data-about="Timeline"><a href="#timeline"></a></li>
+        <li data-about="Features"><a href="#features"></a></li>
+        <li data-about="Testimonials"><a href="#testimonials"></a></li>
+      </ul>
+    </section>
+    <!-- end landing -->
+    <!-- start about -->
+    <section class="about">
+      <div class="container">
+        <div class="about-text">
+          <h2 class="main-title">About Us</h2>
+          <p class="main-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            ipsum, tenetur dolores esse magni ratione distinctio! Quod iusto
+            neque fuga, maxime quos nostrum quibusdam dicta deserunt blanditiis
+            non voluptate id? ipsum, tenetur dolores esse magni ratione
+            distinctio! Quod iusto neque fuga, maxime quos nostrum quibusdam
+            dicta deserunt blanditiis non voluptate id?
+          </p>
+        </div>
+        <div class="img">
+          <img src="/imgs/about-us.jpg" />
+        </div>
+      </div>
+    </section>
+    <!-- end about -->
+    <!-- start skills -->
+    <section class="skills">
+      <div class="container">
+        <h2 class="main-title">Our Skills</h2>
+        <div class="skills-card">
+          <div class="card">
+            <span>html</span>
+            <div>
+              <span class="prog" data-prog="80%" style="width: 90%"></span>
+            </div>
+          </div>
+          <div class="card">
+            <span>css</span>
+            <div>
+              <span class="prog" data-prog="80%" style="width: 85%"></span>
+            </div>
+          </div>
+          <div class="card">
+            <span>JavaScript</span>
+            <div>
+              <span class="prog" data-prog="80%" style="width: 75%"></span>
+            </div>
+          </div>
+          <div class="card">
+            <span>bootstrap</span>
+            <div>
+              <span class="prog" data-prog="80%" style="width: 80%"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end skills -->
+    <!-- start Gallery -->
+    <section class="gallery">
+      <div class="container">
+        <img src="/imgs/01.jpg" alt="img" />
+        <img src="/imgs/02.jpg" alt="img" />
+        <img src="/imgs/03.jpg" alt="img" />
+        <img src="/imgs/04.jpg" alt="img" />
+        <img src="/imgs/05.jpg" alt="img" />
+        <img src="/imgs/06.png" alt="img" />
+        <img src="/imgs/07.jpg" alt="img" />
+        <img src="/imgs/08.jpg" alt="img" />
+      </div>
+    </section>
+    <!-- End Gallery -->
+    <!-- start footer -->
+    <footer>
+      <p>
+        &copy; <span class="time"></span> Your Website. All Rights Reserved.
+      </p>
+    </footer>
+    <!-- end footer -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
